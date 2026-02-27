@@ -19,7 +19,7 @@ highlighting = { theme = "github-dark" }
 
 [extra]
 # background_gradient = "linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #ec4899 100%)"
-background_image = "/static/bg-cyber.png"
+background_image = "/refactoring-life/static/bg-cyber.png"
 home = "홈으로"
 show_toc = true
 show_word_count = true
@@ -28,7 +28,7 @@ date_format = "%Y-%m-%d"
 comments = true
 theme_color = "#1a1a1a"
 keywords = "엔지니어링, 개발자 블로그, 재테크, CI/CD, 파이프라인"
-banner = "/static/bg-cyber.png"
+banner = "/refactoring-life/static/bg-cyber.png"
 
 # 2. 상단 메뉴바 설정
 sam_menu = [
