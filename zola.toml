@@ -14,8 +14,8 @@ taxonomies = [
 ]
 
 [markdown]
-highlight_code = true
-highlight_theme = "css"
+render_emoji = true
+highlighting = { theme = "github-dark" }
 
 [extra]
 home = "홈으로"
