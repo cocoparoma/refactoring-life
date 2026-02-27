@@ -1,24 +1,60 @@
-# The URL the site will be built for
 base_url = "https://cocoparoma.github.io/refactoring-life"
-
-# Title
 title = "Refactoring Life"
-
-# Theme
-theme = "prism" # even
-
-
-# Whether to automatically compile all Sass files in the sass directory
+description = "엔지니어링과 재테크의 모든 것"
+default_language = "ko"
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+minify_html = true
+theme = "prism"
+
+# 1. 카테고리 & 태그 기능 켜기
+taxonomies = [
+  { name = "tags", feed = true },
+  { name = "categories", feed = true }
+]
 
 [markdown]
-
-[markdown.highlighting]
-#theme = "catppuccin-mocha"
-theme = "github-dark"
+highlight_code = true
+highlight_theme = "css"
 
 [extra]
-# Put all your custom variables here
+home = "홈으로"
+show_toc = true
+show_word_count = true
+show_reading_time = true
+date_format = "%Y-%m-%d"
+comments = true
+
+# 2. 상단 메뉴바 설정
+sam_menu = [
+  { text = "posts", link = "/posts" },
+  { text = "tags", link = "/tags" },
+  { text = "categories", link = "/categories" }
+]
+sam_bottom_menu = true
+
+[extra.sam_footer]
+text = "Built using Zola & Prism theme"
+
+[extra.author]
+name = "cocoparoma"
+
+[extra.features]
+copy_code_button = true
+reading_progress_bar = true
+smooth_scroll = true
+
+# 3. Giscus 댓글창 연결 (뼈대 수정 없이 여기서 바로 끝냅니다!)
+[extra.giscus]
+enabled = true
+repo = "cocoparoma/refactoring-life"
+repo_id = "R_kgDORZ8krg"
+category = "Announcements"
+category_id = "DIC_kwDORZ8krs4C3TQ8"
+mapping = "pathname"
+strict = "0"
+reactions_enabled = "1"
+emit_metadata = "0"
+input_position = "bottom"
+theme = "github-dark"
+lang = "ko"
