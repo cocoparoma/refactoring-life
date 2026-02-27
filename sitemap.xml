@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/about/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/categories/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/categories/beulrogeu-seting/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/posts/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/posts/first-post/</loc>
+        <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/tags/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/tags/prism/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/tags/seonggongjeog/</loc>
+    </url>
+    <url>
+        <loc>https://cocoparoma.github.io/refactoring-life/tags/zola/</loc>
+    </url>
+</urlset>

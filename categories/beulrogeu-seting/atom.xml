@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
+    <title>Refactoring Life - 블로그 세팅</title>
+    <subtitle>엔지니어링과 재테크의 모든 것</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://cocoparoma.github.io/refactoring-life/categories/beulrogeu-seting/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-02-27T00:00:00+00:00</updated>
+    <id>https://cocoparoma.github.io/refactoring-life/categories/beulrogeu-seting/atom.xml</id>
+    <entry xml:lang="ko">
+        <title>Prism 테마 적용 완료! 드디어 진짜 시작이다</title>
+        <published>2026-02-27T00:00:00+00:00</published>
+        <updated>2026-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life/posts/first-post/"/>
+        <id>https://cocoparoma.github.io/refactoring-life/posts/first-post/</id>
+        
+        <content type="html" xml:base="https://cocoparoma.github.io/refactoring-life/posts/first-post/">&lt;h2 id=&quot;saeroun-tema-saeroun-maeumgajim&quot;&gt;새로운 테마, 새로운 마음가짐&lt;&#x2F;h2&gt;
+&lt;p&gt;드디어 수많은 에러와 엑스(❌) 표시를 뚫고, 가장 트렌디한 &lt;strong&gt;Prism 테마&lt;&#x2F;strong&gt;로 갈아입는 데 성공했다.
+게다가 카테고리와 태그 기능까지 완벽하게 작동한다!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;oneul-baeun-makeudaun-ggultib&quot;&gt;오늘 배운 마크다운 꿀팁&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;글씨 양옆에 별 두 개를 붙이면 &lt;strong&gt;굵은 글씨&lt;&#x2F;strong&gt;가 된다.&lt;&#x2F;li&gt;
+&lt;li&gt;글씨 양옆에 별 한 개를 붙이면 &lt;em&gt;기울임꼴&lt;&#x2F;em&gt;이 된다.&lt;&#x2F;li&gt;
+&lt;li&gt;하이픈(-)이나 별(*)을 쓰고 띄어쓰기를 하면 이렇게 깔끔한 글머리 기호(리스트)가 된다.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;인용구를 쓰고 싶을 땐 이렇게 꺾쇠(&amp;gt;)를 맨 앞에 달아주면 아주 예쁜 박스가 생긴다.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;앞으로 이 공간을 나의 엔지니어링 지식과 인사이트로 가득 채워나가야겠다. 화이팅! 😎&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
