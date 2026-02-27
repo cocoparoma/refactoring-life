@@ -32,6 +32,7 @@ banner = "/refactoring-life/bg-cyber.png"
 
 # 2. 상단 메뉴바 설정
 sam_menu = [
+  { text = "about", link = "/refactoring-life/about" },
   { text = "posts", link = "/refactoring-life/posts" },
   { text = "tags", link = "/refactoring-life/tags" },
   { text = "categories", link = "/refactoring-life/categories" },
