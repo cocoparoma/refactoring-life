@@ -27,9 +27,9 @@ comments = true
 
 # 2. 상단 메뉴바 설정
 sam_menu = [
-  { text = "posts", link = "/posts" },
-  { text = "tags", link = "/tags" },
-  { text = "categories", link = "/categories" }
+  { text = "posts", link = "/refactoring-life/posts" },
+  { text = "tags", link = "/refactoring-life/tags" },
+  { text = "categories", link = "/refactoring-life/categories" }
 ]
 sam_bottom_menu = true
 
