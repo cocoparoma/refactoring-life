@@ -5,7 +5,8 @@ base_url = "https://cocoparoma.github.io/refactoring-life"
 title = "Refactoring Life"
 
 # Theme
-theme = "even"
+theme = "prism" # even
+
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
