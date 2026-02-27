@@ -18,6 +18,8 @@ render_emoji = true
 highlighting = { theme = "github-dark" }
 
 [extra]
+background_gradient = "linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #ec4899 100%)"
+# background_image = "이미지_주소.jpg"
 home = "홈으로"
 show_toc = true
 show_word_count = true
