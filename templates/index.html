@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="{{ config.default_language }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            {% block htmltitle %}{{ config.title }}{% endblock htmltitle %}
+        </title>
+        <meta name="description" content="{{ config.description }}" />
+
+        <link
+            rel="canonical"
+            href="{{ current_url | default(value=config.base_url) }}"
+        />
+
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2316a34a'><path d='M12,2 C10,0 6,0 6,4 C6,6.5 9,9 12,12 C9,9 6,11.5 6,14 C6,18 10,18 12,16 C14,18 18,18 18,14 C18,11.5 15,9 12,12 C15,9 18,6.5 18,4 C18,0 14,0 12,2 Z'/></svg>"
+        />
+
+        <link rel="preload" href="{{ get_url(path='style.css') }}" as="style" />
+
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+        {% if config.extra.analytics.google_analytics_id %}
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.analytics.google_analytics_id }}"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "{{ config.extra.analytics.google_analytics_id }}");
+        </script>
+        {% endif %}
+
+        <meta
+            name="keywords"
+            content="{{ config.extra.keywords | default(value='') }}"
+        />
+        {% if config.extra.author.name %}
+        <meta name="author" content="{{ config.extra.author.name }}" />
+        {% endif %}
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#1e3a8a" />
+
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="{{ current_url | default(value=config.base_url) }}"
+        />
+        <meta
+            property="og:title"
+            content="{% block og_title %}{{ config.title }}{% endblock og_title %}"
+        />
+        <meta property="og:description" content="{{ config.description }}" />
+        <meta property="og:site_name" content="{{ config.title }}" />
+        {% if config.extra.banner %}
+        <meta
+            property="og:image"
+            content="{{ get_url(path=config.extra.banner) }}"
+        />
+        {% else %}
+        <meta
+            property="og:image"
+            content="{{ config.base_url }}/favicon/android-chrome-512x512.png"
+        />
+        {% endif %}
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="{% block twitter_title %}{{ config.title }}{% endblock twitter_title %}"
+        />
+        <meta name="twitter:description" content="{{ config.description }}" />
+        {% if config.extra.banner %}
+        <meta
+            name="twitter:image"
+            content="{{ get_url(path=config.extra.banner) }}"
+        />
+        {% else %}
+        <meta
+            name="twitter:image"
+            content="{{ config.base_url }}/favicon/android-chrome-512x512.png"
+        />
+        {% endif %}
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "{{ config.title }}",
+              "url": "{{ config.base_url }}",
+              "description": "{{ config.description }}"
+              {% if config.extra.author.name %}
+              ,"author": {
+                "@type": "Person",
+                "name": "{{ config.extra.author.name }}"
+                {% if config.extra.author.url %}
+                ,"url": "{{ config.extra.author.url }}"
+                {% endif %}
+              }
+              {% endif %}
+            }
+        </script>
+
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="RSS Feed for {{ config.title }}"
+            href="{{ get_url(path='rss.xml', trailing_slash=false) }}"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="{{ get_url(path='style.css') }}" />
+
+        {% block head %}{% endblock head %}
+    </head>
+
+    <body>
+        <div class="background-container">
+            {% if config.extra.background_image %}
+            <img
+                src="{{ config.extra.background_image }}"
+                alt=""
+                class="background-image"
+            />
+            {% elif config.extra.background_gradient %}
+            <div
+                class="background-gradient"
+                style="background: {{ config.extra.background_gradient }};"
+            ></div>
+            {% else %}
+            <div class="background-gradient" style="background: #000000"></div>
+            {% endif %}
+        </div>
+
+        {% if config.extra.features.reading_progress_bar %}
+        <div
+            class="reading-progress"
+            id="reading-progress"
+            role="progressbar"
+            aria-label="Reading progress"
+        ></div>
+        {% endif %} {% block body %}
+        <div class="wrap">
+            <div id="splash">
+                <h1 id="title">{{ config.title }}</h1>
+
+                {% if config.description %}
+                <p class="site-description">{{ config.description }}</p>
+                {% endif %}
+
+                <div class="tile-grid">
+                    {% if config.extra.sam_menu %} {% for link in
+                    config.extra.sam_menu %}
+                    <a href="{{ link.link }}" class="tile">
+                        <span class="tile-title">{{ link.text }}</span>
+                        <span class="tile-desc">Explore</span>
+                    </a>
+                    {% endfor %} {% else %} {% set index =
+                    get_section(path="_index.md") %} {% for section_path in
+                    index.subsections %} {% set section =
+                    get_section(path=section_path) %}
+                    <a href="{{ section.permalink }}" class="tile">
+                        <span class="tile-title">{{ section.title }}</span>
+                        <span class="tile-desc">Explore</span>
+                    </a>
+                    {% endfor %} {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endblock body %}
+    </body>
+</html>

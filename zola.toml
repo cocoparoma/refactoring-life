@@ -1,6 +1,6 @@
 base_url = "https://cocoparoma.github.io/refactoring-life"
 title = "Refactoring Life"
-description = "엔지니어링과 재테크의 모든 것"
+description = "반갑습니다."
 default_language = "ko"
 compile_sass = true
 build_search_index = true
@@ -10,16 +10,22 @@ theme = "prism"
 # 1. 카테고리 & 태그 기능 켜기
 taxonomies = [
   { name = "tags", feed = true },
+  { name = "authors", feed = true },
   { name = "categories", feed = true },
 ]
 
 [markdown]
-render_emoji = true
+render_emoji = true                           # Convert :smile: to 😊
+external_links_target_blank = true            # Open external links in new tab
+external_links_no_follow = true               # Add rel="nofollow" to external links
+external_links_no_referrer = true             # Add rel="noreferrer" for privacy
+smart_punctuation = true                      # Convert -- to em-dash, etc
 highlighting = { theme = "github-dark" }
 
 [extra]
 # background_gradient = "linear-gradient(135deg, #1e3a8a 0%, #7c3aed 50%, #ec4899 100%)"
 background_image = "/refactoring-life/bg-fourleafclover.png"
+
 home = "홈으로"
 show_toc = true
 show_word_count = true
@@ -27,7 +33,7 @@ show_reading_time = true
 date_format = "%Y-%m-%d"
 comments = true
 theme_color = "#1a1a1a"
-keywords = "엔지니어링, 개발자 블로그, 재테크, CI/CD, 파이프라인"
+keywords = "엔지니어링, 개발자 블로그, 재테크, CI/CD, 파이프라인, blog, tech, programming"
 banner = "/refactoring-life/banner-fourleafclover.png"
 
 # 2. 상단 메뉴바 설정
