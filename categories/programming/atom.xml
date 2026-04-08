@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
+    <title>Refactoring Life - Programming</title>
+    <subtitle>반갑습니다.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://cocoparoma.github.io/refactoring-life/categories/programming/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-09T00:00:00+00:00</updated>
+    <id>https://cocoparoma.github.io/refactoring-life/categories/programming/atom.xml</id>
+    <entry xml:lang="ko">
+        <title>[Markdown] 마크다운(MarkDown) 문법 정리</title>
+        <published>2026-03-09T00:00:00+00:00</published>
+        <updated>2026-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/"/>
+        <id>https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/</id>
+        
+        <content type="html" xml:base="https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/">&lt;h1 id=&quot;makeudauniran&quot;&gt;마크다운이란?&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;마크다운(MarkDown)이란?&lt;&#x2F;strong&gt; 존 그루버와 애런 슈워츠가 만든 HTML처럼 어려운 문서 대신 읽기 쓰기가 쉬운 문서 양식 지향 마크업 언어이다.
+기본적인 확장자는 markdown을 줄인 .md 파일이고 작동원리는 마크다운 언어를 HTML 형식으로 변환하는 스크립트를 사용하게 된다.
+지금 작성되는 zola로 만든 기술 blog 또한 마크다운 언어로 작성되어 있다!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;makeudaun-munbeob&quot;&gt;마크다운 문법&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-jemog&quot;&gt;1. 제목&lt;&#x2F;h2&gt;
+&lt;p&gt;HTML에서 처음 배우는 &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; 부터 &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt;를 대신하는 기호&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;작성 예시&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot;&gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;# h1 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;## h2 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;### h3 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;#### h4 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;##### h5 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;###### h6 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;실제 페이지 에서&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;h1-tegeu&quot;&gt;h1 테그&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2-tegeu&quot;&gt;h2 테그&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3-tegeu&quot;&gt;h3 테그&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4-tegeu&quot;&gt;h4 테그&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5-tegeu&quot;&gt;h5 테그&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6-tegeu&quot;&gt;h6 테그&lt;&#x2F;h6&gt;
+</content>
+        
+    </entry>
+</feed>

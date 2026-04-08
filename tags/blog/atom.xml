@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
+    <title>Refactoring Life - blog</title>
+    <subtitle>반갑습니다.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://cocoparoma.github.io/refactoring-life/tags/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-08T00:00:00+00:00</updated>
+    <id>https://cocoparoma.github.io/refactoring-life/tags/blog/atom.xml</id>
+    <entry xml:lang="ko">
+        <title>Zola Log</title>
+        <published>2026-04-08T00:00:00+00:00</published>
+        <updated>2026-04-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life/posts/zola/001-log/"/>
+        <id>https://cocoparoma.github.io/refactoring-life/posts/zola/001-log/</id>
+        
+        <content type="html" xml:base="https://cocoparoma.github.io/refactoring-life/posts/zola/001-log/">&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+</feed>

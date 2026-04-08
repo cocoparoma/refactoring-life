@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko">
+    <title>Refactoring Life - Zola</title>
+    <subtitle>반갑습니다.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://cocoparoma.github.io/refactoring-life/tags/zola/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-09T00:00:00+00:00</updated>
+    <id>https://cocoparoma.github.io/refactoring-life/tags/zola/atom.xml</id>
+    <entry xml:lang="ko">
+        <title>[Markdown] 마크다운(MarkDown) 문법 정리</title>
+        <published>2026-03-09T00:00:00+00:00</published>
+        <updated>2026-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/"/>
+        <id>https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/</id>
+        
+        <content type="html" xml:base="https://cocoparoma.github.io/refactoring-life/posts/01-markdown-guide/">&lt;h1 id=&quot;makeudauniran&quot;&gt;마크다운이란?&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;마크다운(MarkDown)이란?&lt;&#x2F;strong&gt; 존 그루버와 애런 슈워츠가 만든 HTML처럼 어려운 문서 대신 읽기 쓰기가 쉬운 문서 양식 지향 마크업 언어이다.
+기본적인 확장자는 markdown을 줄인 .md 파일이고 작동원리는 마크다운 언어를 HTML 형식으로 변환하는 스크립트를 사용하게 된다.
+지금 작성되는 zola로 만든 기술 blog 또한 마크다운 언어로 작성되어 있다!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;makeudaun-munbeob&quot;&gt;마크다운 문법&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;1-jemog&quot;&gt;1. 제목&lt;&#x2F;h2&gt;
+&lt;p&gt;HTML에서 처음 배우는 &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; 부터 &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt;를 대신하는 기호&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;작성 예시&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #E1E4E8; background-color: #24292E;&quot;&gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;# h1 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;## h2 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;### h3 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;#### h4 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;##### h5 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;###### h6 테그&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;실제 페이지 에서&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;h1-tegeu&quot;&gt;h1 테그&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2-tegeu&quot;&gt;h2 테그&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3-tegeu&quot;&gt;h3 테그&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4-tegeu&quot;&gt;h4 테그&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5-tegeu&quot;&gt;h5 테그&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6-tegeu&quot;&gt;h6 테그&lt;&#x2F;h6&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="ko">
+        <title>26년 2월 27일 깃허브 페이지 생성 완료</title>
+        <published>2026-02-27T00:00:00+00:00</published>
+        <updated>2026-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://cocoparoma.github.io/refactoring-life/posts/first-post/"/>
+        <id>https://cocoparoma.github.io/refactoring-life/posts/first-post/</id>
+        
+        <content type="html" xml:base="https://cocoparoma.github.io/refactoring-life/posts/first-post/">&lt;h2 id=&quot;saeroun-tema-saeroun-maeumgajim&quot;&gt;새로운 테마, 새로운 마음가짐&lt;&#x2F;h2&gt;
+&lt;p&gt;사용 툴 : &lt;strong&gt;zola&lt;&#x2F;strong&gt;, &lt;strong&gt;Prism 테마&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;makeu-daun-hyeongsigeuro-jagseongdoeneun-beulrogeu&quot;&gt;마크 다운 형식으로 작성되는 블로그&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;글씨 양옆에 별 두 개를 붙이면 &lt;strong&gt;굵은 글씨&lt;&#x2F;strong&gt;가 된다.&lt;&#x2F;li&gt;
+&lt;li&gt;글씨 양옆에 별 한 개를 붙이면 &lt;em&gt;기울임꼴&lt;&#x2F;em&gt;이 된다.&lt;&#x2F;li&gt;
+&lt;li&gt;하이픈(-)이나 별(*)을 쓰고 띄어쓰기를 하면 이렇게 깔끔한 글머리 기호(리스트)가 된다.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;인용구를 쓰고 싶을 땐 이렇게 꺾쇠(&amp;gt;)를 맨 앞에 달아주면 아주 예쁜 박스가 생긴다.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;카테고리 기능, 테그 기능 작성자, 깃허브 페이지 연동 성공.
+배너, SVG 이미지, BG 이미지 적용 성공.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cuga-mogpyo&quot;&gt;추가 목표&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloudflare 적용.&lt;&#x2F;li&gt;
+&lt;li&gt;wasmtime 을 BackEnd로 사용하여 github page 에서 동적 기능 제공.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
